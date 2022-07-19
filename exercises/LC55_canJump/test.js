@@ -11,3 +11,7 @@ test("[3] returns true", () => {
 test("[3,2,1,0,4] returns false", () => {
   expect(canJump([3, 2, 1, 0, 4])).toEqual(false);
 });
+
+test("[2,0, 0] returns false", () => {
+  expect(canJump([2, 0, 0])).toEqual(true);
+});

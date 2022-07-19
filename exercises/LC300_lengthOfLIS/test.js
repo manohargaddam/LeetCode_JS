@@ -11,3 +11,7 @@ test("lengthOfLIS([0]) returns 1", () => {
 test("lengthOfLIS([]) returns 0", () => {
   expect(lengthOfLIS([])).toEqual(0);
 });
+
+test("lengthOfLIS([0,1,0,3,2,3]) returns 4", () => {
+  expect(lengthOfLIS([0,1,0,3,2,3])).toEqual(4);
+});

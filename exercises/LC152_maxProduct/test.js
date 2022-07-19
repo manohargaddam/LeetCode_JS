@@ -31,3 +31,7 @@ test("[0, 2]  --> 2", () => {
 test("[-2]  --> -2", () => {
   expect(maxProduct([-2])).toEqual(-2);
 });
+
+test("[0, -2, -3]  --> 6", () => {
+  expect(maxProduct([0, -2, -3])).toEqual(6);
+});

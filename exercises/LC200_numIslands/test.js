@@ -32,3 +32,21 @@ test("returns 3 islands correctly.", () => {
     ])
   ).toEqual(3);
 });
+
+test("returns 1 islands correctly...", () => {
+  expect(
+    numIslands([["1", "1", "1"], ["0", "1", "0"], ["1", "1", "1"]])
+  ).toEqual(1);
+});
+
+
+test("returns 5 islands correctly...", () => {
+  expect(
+    numIslands([
+      ["1", "0", "1"],
+      ["0", "1", "0"],
+      ["1", "0", "1"]])
+  ).toEqual(5);
+});
+
+
